@@ -69,7 +69,7 @@ public class Main {
                 case 3:
                     System.out.print("Digite o ID do aluno que deseja atualizar: ");
                     int idAtualizar = scanner.nextInt();
-                    scanner.nextLine(); // Limpar buffer
+                    scanner.nextLine();
 
                     System.out.print("Novo nome: ");
                     String novoNome = scanner.nextLine();
@@ -92,7 +92,7 @@ public class Main {
                 case 4:
                     System.out.print("Digite o ID do aluno que deseja deletar: ");
                     int idDeletar = scanner.nextInt();
-                    scanner.nextLine(); // Limpar buffer
+                    scanner.nextLine();
 
                     alunoDAO.deletar(idDeletar);
                     break;
